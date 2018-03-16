@@ -1,0 +1,16 @@
+version: '2'
+volumes:
+  elastic-data:
+    driver: local
+  postgres_data_dev: {}
+services:
+  db:
+    image: sameersbn/postgresql:9.6-2
+    volumes:
+      - postgres_data_dev:/var/lib/postgresql/data
+    environment:
+      - DB_USER=kc
+      - DB_PASS=admin
+      - DB_NAME=main_db,test_db
+    ports:
+    - 0.0.0.0:5432:5432
