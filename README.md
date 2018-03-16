@@ -1,4 +1,4 @@
-# Buckectlist Service 
+# Bucketlist Service 
 
 > First of all , big shoutout to Jee Gikera!. This is an extension of his write up on 
 [RESTful API with Flask](https://scotch.io/tutorials/build-a-restful-api-with-flask-the-tdd-way)
@@ -22,3 +22,20 @@ Flask is a simple to use python framework. You only add what you need. However ,
 5. Run $ docker-compose up ( this creates a PostgreSQL container for the database of this application ) 
 Useful links: [Docker](https://docs.docker.com/get-started/) ,[Docker-compose](https://docs.docker.com/compose/install/)
 6. Run $ flask run
+
+## Testing 
+Recommended client : Postman 
+
+### Get a token
+So, the first time a GET request is made to http://localhost:5000 a test user is created with 
+Username: test@example.com
+password: test123
+
+To get a token send a POST request to http://127.0.0.1:5001/login with
+{'email':'test@example.com', 'password':'test123'} 
+
+### Make a request with a Token 
+Make a GET request to localhost:5000/bucketlists
+Add the  header paramater 
+Authentication-Token : add-your-token-here
+
