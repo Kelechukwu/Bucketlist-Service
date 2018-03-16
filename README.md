@@ -31,7 +31,7 @@ So, the first time a GET request is made to http://localhost:5000 a test user is
 Username: test@example.com
 password: test123
 
-To get a token send a POST request to http://127.0.0.1:5001/login with
+To get a token send a POST request to http://127.0.0.1:5000/login with
 {'email':'test@example.com', 'password':'test123'} 
 
 ### Make a request with a Token 
