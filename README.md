@@ -1,6 +1,6 @@
-# Buckelist Service 
+# Buckectlist Service 
 
-> First of all , big shoutout to Jee Gikera. This is an extension of his write up on 
+> First of all , big shoutout to Jee Gikera!. This is an extension of his write up on 
 [RESTful API with Flask](https://scotch.io/tutorials/build-a-restful-api-with-flask-the-tdd-way)
 > The directory structure differs a bit from that in [RESTful API with Flask](https://scotch.io/tutorials/build-a-restful-api-with-flask-the-tdd-way)
 
