@@ -1,5 +1,5 @@
 # Bucketlist Service 
-
+[![Build Status](https://travis-ci.org/Kelechukwu/Bucketlist-Service.svg?branch=master)](https://travis-ci.org//Kelechukwu/Bucketlist-Service/)
 > First of all , big shoutout to Jee Gikera!. This is an extension of his write up on 
 [RESTful API with Flask](https://scotch.io/tutorials/build-a-restful-api-with-flask-the-tdd-way)
 > The directory structure differs a bit from that in [RESTful API with Flask](https://scotch.io/tutorials/build-a-restful-api-with-flask-the-tdd-way)
